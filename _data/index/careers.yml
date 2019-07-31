@@ -1,6 +1,20 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Amazon + LA County WDACS 
+    i18n: company_a
+  desc:
+    detail: Developed an ML-based Amazon Alexa skill that reminded stay-at-home patients to take their medication. 
+    i18n: company_a_desc
+  date:
+    detail: August 2018
+    i18n: company_a_date
+  job:
+    detail: Project Developer
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
     detail: Gipper 
     i18n: company_a
   desc:
