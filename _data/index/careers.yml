@@ -1,30 +1,43 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Gipper 
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Full stack developer intern for a software company that provides athletic communications services for high schools and colleges. 
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: April 2018
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Full Stack Developer Intern
     i18n: company_a_job
   icon: fa-plus-square
-  present: true
 
 - name:
-    detail: Company B
+    detail: Megamadz
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: Machine Learning Intern at one of the largest mobile marketing companies on the West Coast. Specialized in creating machine learning algorithms to fit bid prediction algorithms. 
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: March 2018
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Machine Learning Intern
     i18n: company_b_job
+  icon: fa-plus-square
+  
+ - name:
+    detail: Brighten Dental Care  
+    i18n: company_a
+  desc:
+    detail: Created an app for a denistry in Florida. 
+    i18n: company_a_desc
+  date:
+    detail: June 2016
+    i18n: company_a_date
+  job:
+    detail: iOS App Developer
+    i18n: company_a_job
   icon: fa-plus-square
