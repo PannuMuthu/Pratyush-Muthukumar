@@ -1,22 +1,23 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
+- name: HomeAssistProject
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
+  gh_user: PannuMuthu
+  repo: HomeAssistProject
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  desc: JS & JSON project files for ML approach to reminding stay-at-home patients to take their medications. 
 
-- name: Python
+- name: Beyond Animals
   i18n: cpython
-  gh_user: python
-  repo: cpython
+  gh_user: PannuMuthu
+  repo: beyond-animals
   img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+  desc: Xcode/Swift project files for animal image recognition and classification app by machine learning. 
 
-- name: Google
+- name: Previous Projects
   i18n: google
-  url: https://google.com
+  gh_user: PannuMuthu
+  repo: previous-projects
   img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  desc: Some other ioS App Development projects that I worked on. 
