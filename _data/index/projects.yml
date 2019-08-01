@@ -15,9 +15,18 @@
   img: /static/assets/img/landing/python.png
   desc: Xcode/Swift project files for animal image recognition and classification app by machine learning. 
 
+- name: Machine Learning
+  i18n: google
+  gh_user: PannuMuthu
+  repo: machine-learning
+  img: /static/assets/img/landing/google.png
+  desc: Some machine learning projects that I have worked on. 
+  
 - name: Previous Projects
   i18n: google
   gh_user: PannuMuthu
   repo: previous-projects
   img: /static/assets/img/landing/google.png
-  desc: Some other ioS App Development projects that I worked on. 
+  desc: Some other ioS App Development projects that I worked on.
+  
+  
