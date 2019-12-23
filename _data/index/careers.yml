@@ -1,5 +1,35 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+
+
+- name:
+    detail: USC Viterbi Information Sciences Institute 
+    i18n: company_a
+  desc:
+    detail: Researched and developed an autonomous traffic intersection system for semi-autonomous vehicles.
+    i18n: company_a_desc
+  date:
+    detail: May 2019 - August 2019
+    i18n: company_a_date
+  job:
+    detail: Researcher/Developer
+    i18n: company_a_job
+  icon: fa-plus-square
+  
+- name:
+    detail: NASA JPL DIRECT-STEM Laboratory
+    i18n: company_a
+  desc:
+    detail: Researching novel method of predicting aerospace stock volatilities with machine learning and natural language processing on earnings conference calls. 
+    i18n: company_a_desc
+  date:
+    detail: March 2019 - present
+    i18n: company_a_date
+  job:
+    detail: Researcher
+    i18n: company_a_job
+  icon: fa-plus-square
+
 - name:
     detail: Amazon + LA County WDACS 
     i18n: company_a
@@ -7,7 +37,7 @@
     detail: Developed an ML-based Amazon Alexa skill that reminded stay-at-home patients to take their medication. 
     i18n: company_a_desc
   date:
-    detail: August 2018
+    detail: August 2018 - April 2019
     i18n: company_a_date
   job:
     detail: Project Developer
@@ -21,7 +51,7 @@
     detail: Full stack developer intern for a software company that provides athletic communications services for high schools and colleges. 
     i18n: company_a_desc
   date:
-    detail: April 2018
+    detail: April 2018 - August 2018
     i18n: company_a_date
   job:
     detail: Full Stack Developer Intern
@@ -35,23 +65,10 @@
     detail: Machine Learning Intern at one of the largest mobile marketing companies on the West Coast. Specialized in creating machine learning algorithms to fit bid prediction algorithms. 
     i18n: company_b_desc
   date:
-    detail: March 2018
+    detail: March 2018 - May 2018
     i18n: company_b_date
   job:
     detail: Machine Learning Intern
     i18n: company_b_job
   icon: fa-plus-square
   
-- name:
-    detail: Brighten Dental Care  
-    i18n: company_a
-  desc:
-    detail: Created an app for a denistry in Florida. 
-    i18n: company_a_desc
-  date:
-    detail: June 2016
-    i18n: company_a_date
-  job:
-    detail: iOS App Developer
-    i18n: company_a_job
-  icon: fa-plus-square
