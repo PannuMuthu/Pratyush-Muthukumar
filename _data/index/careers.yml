@@ -1,6 +1,19 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+- name:
+    detail: LA County
+    i18n: company_a
+  desc:
+    detail: Researching a machine learning approach to predicting spatiotemporal air pollution in LA County.
+    i18n: company_a_desc
+  date:
+    detail: November 2019 - present
+    i18n: company_a_date
+  job:
+    detail: Lead Developer
+    i18n: company_a_job
+  icon: fa-plus-square
 
 - name:
     detail: USC Viterbi Information Sciences Institute 
@@ -20,7 +33,7 @@
     detail: NASA JPL DIRECT-STEM Laboratory
     i18n: company_a
   desc:
-    detail: Researching novel method of predicting aerospace stock volatilities with machine learning and natural language processing on earnings conference calls. 
+    detail: Researching a novel method of predicting aerospace stock volatilities with machine learning and natural language processing on earnings conference calls. 
     i18n: company_a_desc
   date:
     detail: March 2019 - present
