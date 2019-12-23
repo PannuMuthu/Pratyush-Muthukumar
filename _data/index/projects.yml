@@ -29,4 +29,17 @@
   img: /static/assets/img/landing/app.png
   desc: Some other ioS App Development projects that I worked on.
   
+- name: NLP
+  i18n: google
+  gh_user: PannuMuthu
+  repo: NLP
+  img: /static/assets/img/landing/nlp.png
+  desc: A collection of my NLP projects.
+  
+- name: Gipper
+  i18n: google
+  gh_user: PannuMuthu
+  repo: gipper
+  img: /static/assets/img/landing/gipper.png
+  desc: A repository of some of my work done while working at Gipper.
   
