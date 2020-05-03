@@ -20,7 +20,7 @@ mathjax: true
 
 **Figure 1 - The overall architecture of our work**
 
-<center><img src='imgs/model.png' width=1060></img></center>
+<center><img src='/static/assets/img/landing/model.png' width=1060></img></center>
 
 ## Table of content
 * [Introduction](#overview)
@@ -228,7 +228,7 @@ plt.show()
 ```
 
 
-![png]({{/static/assets/img/landing/GAN_testing_files/GAN_testing_11_0.png}})
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_11_0.png"}})
 
 
 
@@ -459,7 +459,7 @@ plot_technical_indicators(dataset_TI_df, 400)
 ```
 
 
-![png](GAN_testing_files/GAN_testing_20_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_20_0.png"}})
 
 
 
@@ -522,7 +522,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_26_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_26_0.png"}})
 
 
 
@@ -538,7 +538,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_27_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_27_0.png"}})
 
 
 
@@ -600,7 +600,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_30_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_30_0.png"}})
 
 
 
@@ -660,7 +660,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_34_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_34_0.png"}})
 
 
 
@@ -1193,7 +1193,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_49_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_49_0.png"}})
 
 
 
@@ -1206,7 +1206,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_50_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_50_0.png"}})
 
 
 
@@ -1250,7 +1250,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_53_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_53_0.png"}})
 
 
 
@@ -1763,7 +1763,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_82_0.png)
+![png]({{"/static/assets/img/landing/GAN_testing_files/GAN_testing_82_0.png"}})
 
 
 
@@ -1941,22 +1941,6 @@ utility = UtilityFunction(kind="ucb", kappa=2.5, xi=0.0)
 # 6. The result <a class="anchor" id="theresult"></a>
 
 
-```python
-net.ollect_params().initialize(mx.init.Xavier(magnitude=2.24), ctx=ctx)
-
-```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-90-26b4d0990b99> in <module>
-    ----> 1 net.collect_params().initialize(mx.init.Xavier(magnitude=2.24), ctx=ctx)
-    
-
-    NameError: name 'net' is not defined
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally we will compare the output of the LSTM when the unseen (test) data is used as an input after different phases of the process.
 
@@ -1968,7 +1952,7 @@ plot_prediction('Predicted and Real price - after first epoch.')
 
 ```
 
-![png](output_168_0.png)
+![png]({{"/static/assets/img/landing/1.png"}})
 
 
 2. Plot after 50 epochs.
@@ -1979,7 +1963,7 @@ plot_prediction('Predicted and Real price - after first 50 epochs.')
 
 ```
 
-![png](output_170_0.png)
+![png]({{"/static/assets/img/landing/50.png"}})
 
 
 ```python
@@ -1987,7 +1971,7 @@ plot_prediction('Predicted and Real price - after first 200 epochs.')
 
 ```
 
-![png](output_171_0.png)
+![png]({{"/static/assets/img/landing/200.png"}})
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The RL run for ten episodes (we define an eposide to be one full GAN training on the 200 epochs.)
@@ -1998,6 +1982,6 @@ plot_prediction('Final result.')
 
 ```
 
-![png](output_173_0.png)
+![png]({{"/static/assets/img/landing/500.png"}})
 
 
