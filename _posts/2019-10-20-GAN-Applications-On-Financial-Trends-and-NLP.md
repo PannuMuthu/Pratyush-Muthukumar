@@ -20,7 +20,7 @@ mathjax: true
 
 **Figure 1 - The overall architecture of our work**
 
-<center><img src='/static/assets/img/landing/model.png' width=1060></img></center>
+<center><img src='/static/assets/img/landing/imgs/model.png' width=1060></img></center>
 
 ## Table of content
 * [Introduction](#overview)
@@ -1258,7 +1258,7 @@ plt.show()
 
 **Note**: Normally, in autoencoders the number of encoders == number of decoders. We want, however, to extract higher level features (rather than creating the same input), so we can skip the last layer in the decoder. We achieve this creating the encoder and decoder with same number of layers during the training, but when we create the output we use the layer next to the only one as it would contain the higher level features.
 
-<center><img src="imgs/VAE.jpg" width=428></img></center>
+<center><img src="/static/assets/img/landing/imgs/VAE.jpg" width=428></img></center>
 
 
 ```python
@@ -1480,7 +1480,7 @@ principalComponents.n_components_
 
 Figure 9: Simple GAN architecture
 
-<center><img src='imgs/GAN.jpg' width=960></img></center>
+<center><img src='/static/assets/img/landing/imgs/GAN.jpg' width=960></img></center>
 
 #### How GANs work?
 
@@ -1520,7 +1520,7 @@ $$L(D, G) = \mathbb{E}_{x \sim p_{r}(x)} [\log D(x)] + \mathbb{E}_{z \sim p_z(z)
 <br></br>
 Figure 10: Visual representation of MHGAN (from the original <a href="https://eng.uber.com/mh-gan/?amp">Uber post</a>).
 
-<center><img src='imgs/MHGAN.png' width=500></img></center>
+<center><img src='/static/assets/img/landing/imgs/MHGAN.png' width=500></img></center>
 
 #### **II. Wasserstein GAN** <a class="anchor" id="wgan"></a>
 
@@ -1649,20 +1649,6 @@ for e in range(epochs):
     print("Epoch %s. Loss: %s, Train_acc %s, Test_acc %s" % (e, moving_loss, train_accuracy, test_accuracy))
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-94-6477f4c9a846> in <module>
-          3 
-          4 for e in range(epochs):
-    ----> 5     for i, (data, label) in enumerate(train_data):
-          6         data = data.as_in_context(ctx)
-          7         label = label.as_in_context(ctx)
-
-
-    NameError: name 'train_data' is not defined
 
 
 We will use 500 neurons in the LSTM layer and use Xavier initialization. For regularization we'll use L1. Let's see what's inside the ```LSTM``` as printed by MXNet.
@@ -1922,7 +1908,7 @@ utility = UtilityFunction(kind="ucb", kappa=2.5, xi=0.0)
 
 ### 5.2.1. Gaussian process <a class="anchor" id="gaussprocess"></a>
 
-<center><img src="imgs/Bayes.png" width=600></img></center>
+<center><img src="/static/assets/img/landing/imgs/Bayes.png" width=600></img></center>
 
 # 6. The result <a class="anchor" id="theresult"></a>
 
