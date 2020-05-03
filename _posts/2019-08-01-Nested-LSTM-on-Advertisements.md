@@ -1,4 +1,6 @@
-
+---
+mathjax: true
+---
 # Nested LSTM Intuition
 
 Nested LSTMs (NLSTMs) are a form of LSTMs, but the main difference is that instead of stacking cells, NLSTM cells are nested.
