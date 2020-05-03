@@ -1274,20 +1274,6 @@ test_iter = mx.io.NDArrayIter(data={'data': VAE_data[num_training_days:,:-1]}, \
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-70-092233e5efe0> in <module>
-          1 batch_size = 64
-    ----> 2 n_batches = VAE_data.shape[0]/batch_size
-          3 VAE_data = VAE_data.values
-          4 
-          5 train_iter = mx.io.NDArrayIter(data={'data': VAE_data[:num_training_days,:-1]}, \
-
-
-    NameError: name 'VAE_data' is not defined
-
 
 
 ```python
