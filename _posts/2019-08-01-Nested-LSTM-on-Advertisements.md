@@ -8,7 +8,7 @@ Nested LSTMs (NLSTMs) are a form of LSTMs, but the main difference is that inste
 If we look at a traditional LSTM, 
 
 
-![Traditional LSTM](lstm.png)
+![Traditional LSTM]({{ "/static/assets/img/landing/lstm.png" }})
 
 # LSTM Step-by-Step Approach
 
@@ -53,13 +53,13 @@ This output will be based on our cell state, but will be a filtered version. Fir
 In the click-through ad prediction, we are transforming $C_t$ and creating $x_t$ for the next cell's forget gate. The output gate is defined as $$o_t = \sigma (W_0 \cdot h[t_1,x_t]+b_o)$$
 $$h_t= o_t \cdot \text{tanh}(C_t)$$
 
-![Nested LSTM](nestedLSTM.png)
+![Nested LSTM]({{ "/static/assets/img/landing/nestedLSTM.png" }})
 
 # Nested LSTMS
 
 Nested LSTMs nest cells instead of stacking them, so the main difference is the ways in which $h_{t-1}, x_t,$ and $C_t$ are computed. 
 
-Instead of finding $C_t$ through an additive method, NLSTMs use a learned function, denoted as $m$ that is the "inner memory" of the NLSTM. This means that the NLSTM pulls from the cell $C_{t-1}$ that is nested within $C_t $. $\\[1cm]$
+Instead of finding $C_t$ through an additive method, NLSTMs use a learned function, denoted as $m$ that is the "inner memory" of the NLSTM. This means that the NLSTM pulls from the cell $C_{t-1}$ that is nested within $C_t $.
 $$\begin{align}C_t = f_tC_{t-1}+i_tC^*_t \hspace{2cm} \textbf{LSTM} \\ C_t = m(f_tCt_1, i_tC^*_t) \hspace{2cm} \textbf{NLSTM}\\ \end{align}$$
 
 
@@ -69,7 +69,7 @@ $$\begin{align}C_t = f_tC_{t-1}+i_tC^*_t \hspace{2cm} \textbf{LSTM} \\ C_t = m(f
 
 A test on predicting poems of different time periods shows various implementations of layered LSTMs and NLSTMs. 
 
-![Performance](performance.png)
+![Performance]({{ "/static/assets/img/landing/performance.png" }})
 
 This graph shows the log-loss error function over time. Solid lines are the validation set, and dotted lines are the test set. 
 
