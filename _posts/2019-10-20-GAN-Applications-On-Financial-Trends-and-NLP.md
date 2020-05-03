@@ -228,7 +228,7 @@ plt.show()
 ```
 
 
-![png](GAN_testing_files/GAN_testing_11_0.png)
+![png]({{/static/assets/img/landing/GAN_testing_files/GAN_testing_11_0.png}})
 
 
 
