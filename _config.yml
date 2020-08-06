@@ -16,11 +16,11 @@ author:  # change following line to your infomation.
   last_name: Muthukumar  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: PannuMuthu  # Leave blank if you don't have now
-  linkedin_id: pratyush-muthukumar-99554316a # Leave blank if you don't have now
+  linkedin_id: pratyush-muthukumar # Leave blank if you don't have now
   facebook_username: profile.php?id=100010372536992  # Leave blank if you don't have now
   twitter_username:  # Leave blank if you don't have now
   email: pratyush.muthukumar@gmail.com  # Leave blank if you don't have now
-  cv:  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv:  https://drive.google.com/file/d/0B8JxlZWYCruYMFRPUXdobEgwam9oaWNNZmlVRUstVWdDekFF/view?usp=sharing
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-java
